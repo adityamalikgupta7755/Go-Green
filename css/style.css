@@ -264,7 +264,7 @@ textarea {
     color: white;
     text-decoration: none; 
 }
-@media (max-width: 500px){
+@media (max-width: 600px){
     #form-section input,
 textarea {
     width: 100px;
