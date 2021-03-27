@@ -261,6 +261,16 @@ textarea {
     color: white;
     text-decoration: none; 
 }
+@media (max-width: 500px){
+    #form-section input,
+textarea {
+    width: 100px;
+}
+#form-section table tr td label{
+    padding: 8px 0px;
+    margin-right: 20px;
+}
+}
 @media (max-width: 1000px){
     #nav-bar{
         flex-direction: column;
@@ -292,10 +302,7 @@ textarea {
 }
 @media (max-width: 1291px){
     #contact {
-        display: flex;
-        align-items: flex-start;
         flex-direction: column;
-        justify-content: flex-start;
         margin-top: 0px;
     }
     #contact #form-section {
@@ -317,6 +324,7 @@ textarea {
     }
     #form-section input,
 textarea {
-    width: 200px;
+    width: 280px;
+    margin-left: 30px;
 }
 }
