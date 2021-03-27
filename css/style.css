@@ -288,14 +288,17 @@ textarea {
     }
     #form-section input,
 textarea {
-    width: 150px;
+    width: 180px;
     margin-left: 30px;
 }
 #form-section table tr td label{
-    padding: 8px 0px;
+    padding: 8px 5px;
     font-size: 15px;
     margin-right: 5px;
     font-weight: normal;
+}
+#form-section #btn {
+    left: 20%;
 }
 }
 @media(max-width: 1000px){
