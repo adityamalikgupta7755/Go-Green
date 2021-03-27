@@ -43,14 +43,12 @@
     width: 100%;
     height: 500px;
     overflow: hidden;
-    border-radius: 20px;
 }
 
 #header {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: inherit;
     width: inherit;
     height: inherit;
     background: blueviolet url('../Image/bg1.jpg') no-repeat fixed center;
@@ -79,6 +77,9 @@
 }
 
 /* Product Section */
+#Products h1{
+    margin: 20px 20px;
+}
 .Product-Section  {
     display: flex;
     flex-direction: row;
@@ -98,13 +99,17 @@
     border: 2px solid greenyellow;
     border-radius: 20px;
     box-shadow: 0 0 10px greenyellow;
+    transition: all 1s;
+    overflow: hidden;
 }
 .card:hover{
     box-shadow: 0 0 20px rgb(107, 175, 4);
+    transform: skew(5deg, 2deg);
 }
 .card .product-img {
     width: 100%;
     height: 60%;
+    overflow: hidden;
 }
 
 .card .product-img img {
@@ -112,6 +117,9 @@
     width: 100%;
     height: 100%;
     border-radius: 20px 20px 0 0px;
+}
+.card:hover img{
+    transform: scale(1.1, 1.1);
 }
 
 .card .Product-disc {
@@ -139,7 +147,7 @@
 
 .Product-disc span {
     background-color: #6c9905;
-    padding: 0px 10px;
+    padding: 5px 10px;
     line-height: 38px;
     margin: 15px 0px;
     border: 2px solid rgb(255, 251, 0);
@@ -148,8 +156,11 @@
     color: white;
     font-weight: bold;
     font-family: cursive;
+    transition: all 1s;
 }
-
+.card:hover span{
+    background-color: #990505;
+}
 /* Quits or Thoughts*/
 #Quits {
     display: flex;
