@@ -1,0 +1,299 @@
+#nav-bar {
+    border-radius: 40px 40px 0px 0px;
+    border: 2px solid greenyellow;
+    background: radial-gradient(circle, #567a05, #6c9905, #82ba04, #99dc02, #b1ff00);
+    box-shadow: 0 0 8px greenyellow;
+    position: sticky;
+    top: 0px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    color: white;
+    padding: 0px 40px;
+}
+#nav-bar #logo{
+    font-size: 30px;
+}
+
+
+#nav-bar #nav-link a {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0px 10px;
+}
+
+#nav-bar #nav-link a:hover  {
+    color: rgb(187, 255, 0);
+    text-shadow: 3px 3px 25px rgb(17, 14, 14);
+}
+
+/* Banner Section */
+#header-banner {
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: inherit;
+    width: inherit;
+    height: inherit;
+    background: blueviolet url('../Image/bg1.jpg') no-repeat fixed center;
+    background-size: cover;
+    box-shadow: 0 0 8px greenyellow;
+    transition: all 4s;
+}
+
+#header-banner:hover #header {
+    transform: perspective(200px) scale(1.2, 1.2);
+}
+
+#header h1 {
+    /* top: 50%;
+    left: 40%; */
+    padding: 5px 10px;
+    border-radius: 25%;
+    background-color: rgba(153, 205, 50, 0.596);
+    box-shadow: 0 0 10px black;
+    transform: perspective(200px) rotateX(90deg);
+    color: white;
+    transition: all 4s;
+}
+
+#header-banner:hover h1 {
+    transform: perspective(200px) rotateX(0deg);
+}
+
+/* Product Section */
+.Product-Section  {
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start; */
+    /* justify-content: flex-start; */
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.Product-Section .card {
+    width: 280px;
+    height: 400px;
+    height: inherit;
+    margin: 20px auto;
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+    box-shadow: 0 0 10px greenyellow;
+}
+.card:hover{
+    box-shadow: 0 0 20px rgb(107, 175, 4);
+}
+.card .product-img {
+    width: 100%;
+    height: 65%;
+}
+
+.card .product-img img {
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0px;
+}
+
+.card .Product-disc {
+    width: 100%;
+    height: 35%;
+    text-align: center;
+    line-height: 8px;
+    letter-spacing: 3px;
+}
+
+.Product-disc h1 {
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.Product-disc h2 {
+    text-align: right;
+    padding-right: 10px;
+    /* padding-bottom: 25px; */
+}
+
+.Product-disc span {
+    background-color: #6c9905;
+    padding: 0px 10px;
+    line-height: 38px;
+    border: 2px solid rgb(255, 251, 0);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 251, 0);
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+/* Quits or Thoughts*/
+#Quits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background: blueviolet url('../Image/bg3.png') no-repeat fixed center;
+    background-size: cover;
+}
+
+#Quits p {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 50px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    word-spacing: 10px;
+    line-height: 50px;
+    text-shadow: 0 0 10px darkgreen;
+}
+
+#Quits p span {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Contact Section */
+#contact {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+#contact #form-section {
+    width: 50%;
+}
+
+#form-section h1 {
+    padding-left: 20px;
+    font-size: 40px;
+    line-height: 15px;
+}
+
+#form-section table {
+    position: relative;
+    margin: 20px 20px;
+}
+
+#form-section table tr td {
+    padding: 8px 45px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#form-section input,
+textarea {
+    width: 300px;
+    height: 25px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#form-section textarea {
+    height: 80px;
+}
+
+#form-section #btn {
+    position: absolute;
+    left: 50%;
+    width: 150px;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+#contact #map {
+    width: 50%;
+}
+
+#contact #map iframe {
+    width: 99%;
+    height: 350px;
+    border-radius: 20px;
+}
+
+/* footer */
+#footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    border: 2px solid greenyellow;
+    background: radial-gradient(circle, #567a05, #6c9905, #82ba04, #99dc02, #b1ff00);
+    box-shadow: 0 0 8px greenyellow;
+    border-radius: 0 0 40px 40px;
+    text-align: center;
+    color: white;
+    line-height: 10px;
+    text-transform: capitalize;
+
+}
+@media (max-width: 1000px){
+    #nav-bar{
+        flex-direction: column;
+        height: 70px;
+        justify-content: center;
+    }
+    #nav-bar #logo{
+        margin-bottom: 5px;
+    }
+    #header-banner{
+        height: 300px;
+    }
+    #Quits p{
+        padding: 15px;
+        color: white;
+        font-size: 18px;
+    }
+}
+@media (max-width: 1291px){
+    #contact {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 0px;
+    }
+    #contact #form-section {
+        width: 70%;
+        margin: 40px auto;
+    }
+    #contact #map {
+        width: 70%;
+        height: 300px;
+        margin: 40px auto;
+
+    }
+    #form-section h1, #form-section table tr td,#form-section table{
+        padding: 0px;
+        margin: 0px;
+    }
+    #form-section table{
+        margin-top: 20px;
+    }
+    #form-section input,
+textarea {
+    width: 250px;
+}
+}
