@@ -267,15 +267,16 @@ textarea {
 @media (max-width: 600px){
     #form-section input,
 textarea {
-    width: 100px;
+    width: 80px;
 }
 #form-section table tr td label{
     padding: 8px 0px;
-    font-size: 15;
-    margin-right: 10px;
+    font-size: 10;
+    margin-right: 5px;
+    font-weight: normal;
 }
 }
-@media (max-width: 1000px){
+@media(max-width: 1000px){
     #nav-bar{
         flex-direction: column;
         height: 200px;
