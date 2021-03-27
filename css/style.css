@@ -257,7 +257,7 @@ textarea {
 @media (max-width: 1000px){
     #nav-bar{
         flex-direction: column;
-        height: 170px;
+        height: 200px;
         align-items: flex-start;
         justify-content: flex-start;
     }
