@@ -265,9 +265,31 @@ textarea {
     text-decoration: none; 
 }
 @media (max-width: 600px){
+    #contact {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    #contact #form-section {
+        width: 70%;
+        margin: 40px 10px;
+    }
+    #contact #map {
+        width: 70%;
+        height: 300px;
+        margin: 40px auto;
+
+    }
+    #form-section h1, #form-section table tr td,#form-section table{
+        padding: 0px;
+        margin: 0px;
+    }
+    #form-section table{
+        margin-top: 20px;
+    }
     #form-section input,
 textarea {
-    width: 80px;
+    width: 150px;
+    margin-left: 30px;
 }
 #form-section table tr td label{
     padding: 8px 0px;
@@ -305,7 +327,7 @@ textarea {
         font-size: 15px;
     }
 }
-@media (max-width: 1291px){
+@media (min-width:700px) (max-width: 1291px){
     #contact {
         flex-direction: column;
         margin-top: 0px;
