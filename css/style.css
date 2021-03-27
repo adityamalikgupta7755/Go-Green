@@ -91,6 +91,7 @@
     height: 400px;
     height: inherit;
     margin: 20px auto;
+    background-color: white;
     border: 2px solid greenyellow;
     border-radius: 20px;
     box-shadow: 0 0 10px greenyellow;
