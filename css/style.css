@@ -256,7 +256,10 @@ textarea {
     padding: 10px;
     line-height: 20px;
     text-transform: capitalize;
-
+}
+#footer a{
+    color: white;
+    text-decoration: none; 
 }
 @media (max-width: 1000px){
     #nav-bar{
